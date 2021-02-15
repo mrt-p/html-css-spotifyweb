@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: black;
+  color: #77797D;
+}
+
+
+nav {
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  background-color: #000000;
+  padding: 10px;
+}
+
+h3, h4 {
+  color: white;
+  font-weight: bold;
+}
+
+/* NAVBAR */
+.navbar-header {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.navbar-brand {
+  width: 70%;
+}
+.nav-navbar {
+  padding: 15px;
+}
+.nav_1 {
+  list-style: none;
+}
+.nav_1 a{
+  color: #77797D;
+}
+.nav_1 li {
+  margin-top: 20px;
+}
+
+.nav_playlist {
+  padding: 0 15px;
+}
+
+.nav_playlist_add {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* MAIN */
+.main_container {
+  width: calc(100% - 250px);
+  padding: 0 0 100px 0;
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  margin-right: 10px;
+}
+
+.main_header {
+  width: calc(100% - 250px);
+  margin-right: 20px;
+}
+
+.upgrade {
+  width: 100%;
+  height: 100px;
+  background-color: #080B12;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.upgrade_btn {
+  height: 50px;
+  width: 200px;
+  background-color: green;
+}
+
+.main_menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main_menu li {
+  padding: 20px;
+}
+
+.main_title {
+  margin: 20px auto;
+}
+.recently_played {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.played {
+  width: 150px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.played_img {
+  width: 100%;
+}
+.played_img img {
+  width: 100%;
+}
+.rounded img {
+  border-radius: 100px;
+}
+.played_text {
+  text-align: center;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #282828;
+  position: fixed;
+  bottom: 0;
+}
