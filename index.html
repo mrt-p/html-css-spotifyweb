@@ -4,11 +4,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Spotify Web</title>
+  <title>Spotify - Lettore Web</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.ico" />
 </head>
 <body>
   <header>
@@ -20,50 +23,58 @@
       </div>
       <div class="nav-navbar">
         <ul class="nav_1">
-          <li><a href="#">Lorem Ipsum</a></li>
-          <li><a href="#">Lorem Ipsum</a></li>
-          <li><a href="#">Lorem Ipsum</a></li>
+          <li> <img src="img/home.svg" alt="">  <a href="#">Home</a></li>
+          <li> <img src="img/search.svg" alt=""> <a href="#">Cerca</a></li>
+          <li> <img src="img/libreria.svg" alt=""> <a href="#">La tua libreria</a></li>
         </ul>
       </div>
-    <div class="nav_playlist">
-<div class="nav_playlist_title">
-  <h4>PLAYLIST</h4>
-</div>
-<div class="nav_playlist_add">
-<button type="button" name="button"> + </button> Crea Playlist
-</div>
-<div class="nav_playlist_list">
-  <ul class="nav_1">
-    <li><a href="#">Lorem Ipsum</a></li>
-    <li><a href="#">Lorem Ipsum</a></li>
-    <li><a href="#">Lorem Ipsum</a></li>
-    <li><a href="#">Lorem Ipsum</a></li>
-    <li><a href="#">Lorem Ipsum</a></li>
-    <li><a href="#">Lorem Ipsum</a></li>
-    <li><a href="#">Lorem Ipsum</a></li>
-  </ul>
-</div>
-    </div>
+      <div class="nav_playlist">
+        <div class="nav_playlist_title">
+          <h4>PLAYLIST</h4>
+        </div>
+        <div class="nav_playlist_add">
+          <button type="button" name="button" class="playlist_add_btn"> + </button> Crea Playlist
+        </div>
+        <div class="nav_playlist_list">
+          <ul class="nav_1 nav_scroll">
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav_install">
+        <div class="install_btn">
+          <img src="img/download.svg" class="download_btn" alt="">  Installa app
+        </div>
+        <hr style="width: 100%;">
+        <div class="nav_user">
+          <a href="#"><h4> <img src="img/profile.svg" alt=""> John Doe</h4></a>
+        </div>
+      </div>
     </nav>
   </header>
   <main>
     <div class="container main_header">
       <div class="container upgrade">
         <div class="upgrade_btn">
-
+          <a href="#">EFFETTUA L'UPGRADE</a>
         </div>
       </div>
       <ul class="main_menu">
-        <li>IN EVIDENZA</li>
-        <li> PODCAST</li>
-        <li> CLASSIFICHE </li>
-        <li> GENERI E MOOD </li>
-        <li> NUOVE USCITE </li>
-        <li> SCOPRI </li>
+        <li><a href="#">IN EVIDENZA</a></li>
+        <li><a href="#">PODCAST</a></li>
+        <li><a href="#">CLASSIFICHE</a></li>
+        <li><a href="#">GENERI E MOOD</a></li>
+        <li><a href="#">NUOVE USCITE</a></li>
+        <li><a href="#">SCOPRI</a></li>
       </ul>
     </div>
     <div class="container main_container">
-
       <div class="container main_title">
         <h3> Recently Played </h3>
       </div>
@@ -73,53 +84,53 @@
             <img src="img/metal_lifting.jpg" alt="">
           </div>
           <div class="played_text">
-            <h4>Lorem Ipsum</h4>
-            <p> Lorem Ipsum</p>
+            <h4>Heavy Metal</h4>
+            <p> Subtitle </p>
           </div>
         </div>
         <div class="played">
           <div class="played_img">
-            <img src="img/metal_lifting.jpg" alt="">
+            <img src="img/stranger.jpeg" alt="">
           </div>
           <div class="played_text">
-            <h4>Lorem Ipsum</h4>
-            <p> Lorem Ipsum</p>
+            <h4>Stranger Tings. Vol. 1 (a Netflix Original Series Soundtrack)</h4>
+            <p> Kyle Dixon & Michael Stein</p>
           </div>
         </div>
         <div class="played">
           <div class="played_img">
-            <img src="img/metal_lifting.jpg" alt="">
+            <img src="img/aquietplace.jpeg" alt="">
           </div>
           <div class="played_text">
-            <h4>Lorem Ipsum</h4>
-            <p> Lorem Ipsum</p>
+            <h4>A quiet place</h4>
+            <p> Subtitle </p>
           </div>
         </div>
         <div class="played">
           <div class="played_img">
-            <img src="img/metal_lifting.jpg" alt="">
+            <img src="img/split.jpeg" alt="">
           </div>
           <div class="played_text">
-            <h4>Lorem Ipsum</h4>
-            <p> Lorem Ipsum</p>
+            <h4>Split</h4>
+            <p> Subtitle </p>
           </div>
         </div>
         <div class="played">
           <div class="played_img">
-            <img src="img/metal_lifting.jpg" alt="">
+            <img src="img/cure.jpeg" alt="">
           </div>
           <div class="played_text">
-            <h4>Lorem Ipsum</h4>
-            <p> Lorem Ipsum</p>
+            <h4>A cure for wellness</h4>
+            <p> Subtitle </p>
           </div>
         </div>
         <div class="played">
           <div class="played_img">
-            <img src="img/metal_lifting.jpg" alt="">
+            <img src="img/sinister.jpeg" alt="">
           </div>
           <div class="played_text">
-            <h4>Lorem Ipsum</h4>
-            <p> Lorem Ipsum</p>
+            <h4>Sinister</h4>
+            <p> Subtitle </p>
           </div>
         </div>
       </div>
@@ -130,20 +141,18 @@
       <div class="container recently_played">
         <div class="played">
           <div class="played_img">
-            <img src="img/metal_lifting.jpg" alt="">
+            <img src="img/radar.jpeg" alt="">
           </div>
           <div class="played_text">
-            <h4>Lorem Ipsum</h4>
-            <p> Lorem Ipsum</p>
+            <h4>Release Radar</h4>
           </div>
         </div>
         <div class="played">
           <div class="played_img">
-            <img src="img/metal_lifting.jpg" alt="">
+            <img src="img/mixdaily.jpeg" alt="">
           </div>
           <div class="played_text">
-            <h4>Lorem Ipsum</h4>
-            <p> Lorem Ipsum</p>
+            <h4>Daily Mix 1</h4>
           </div>
         </div>
       </div>
@@ -154,26 +163,66 @@
       <div class="container recently_played">
         <div class="played">
           <div class="played_img rounded">
-            <img src="img/metal_lifting.jpg" alt="">
+            <img src="img/youg.jpeg" alt="">
           </div>
           <div class="played_text">
-            <h4>Lorem Ipsum</h4>
-            <p> Lorem Ipsum</p>
+            <h4>Lana Del Rey</h4>
           </div>
         </div>
         <div class="played">
           <div class="played_img rounded">
-            <img src="img/metal_lifting.jpg" alt="">
+            <img src="img/einaudi.jpeg" alt="">
           </div>
           <div class="played_text">
-            <h4>Lorem Ipsum</h4>
-            <p> Lorem Ipsum</p>
+            <h4>Ludovico Einaudi</h4>
           </div>
         </div>
       </div>
     </div>
   </main>
-  <footer></footer>
+  <footer>
+
+<div class="footer_left">
+<div class="song_img">
+  <img src="img/sinister.jpeg" alt="">
+</div>
+<div class="song_text">
+  <h5>Sinister</h5>
+  Brano Nome
+</div>
+<div class="song_icons">
+  <i class="far fa-heart"></i>
+  <i class="far fa-folder"></i>
+</div>
+</div>
+<div class="footer_center">
+<div class="play_bar">
+<i class="fas fa-random"></i>
+<i class="fas fa-step-backward"></i>
+<i class="far fa-play-circle"></i>
+<i class="fas fa-step-forward"></i>
+<i class="fas fa-redo-alt"></i>
+</div>
+<div class="play_time">
+  <h5>0:25</h5>
+  <div class="progress-bar">
+
+  </div>
+  <h5>4:35</h5>
+</div>
+</div>
+<div class="footer_right">
+<div class="volume_icons">
+<i class="fas fa-list"></i>
+<i class="fas fa-desktop"></i>
+<i class="fas fa-volume-up"></i>
+</div>
+<div class="volume-bar">
+
+</div>
+</div>
+
+  </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/df7a7030e8.js" crossorigin="anonymous"></script>
